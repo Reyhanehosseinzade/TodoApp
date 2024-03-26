@@ -1,0 +1,16 @@
+.check-todo:checked ~ span {
+  text-decoration: line-through;
+  text-decoration-color: rgba(153, 153, 153, 0.662);
+}
+main{
+  min-height: 100vh;
+  background-image: url("./assets/Feb-Dream-Plan-Do-Desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.todo-card{
+  background-color: #e4e3e3bc;
+  backdrop-filter: blur(2px);
+}
